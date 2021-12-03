@@ -3,7 +3,6 @@ description: >-
   A Cool Template from jekyll
 
 # url system:
-default_port: "4000" # define here the Port from your "jekyll server"
 baseurl: "" # if you gona run he in localhost remember to define null or use "$ jekyll server --baseurl=''"
 url: ""
 

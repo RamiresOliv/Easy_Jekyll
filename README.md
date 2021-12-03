@@ -1,9 +1,9 @@
-<h1 align="center"> MinecraftServerMenu/Website </h1>
+<h1 align="center"> Jekyll Template </h1>
 
-> Here its a Main of Website.
+> How i get Started?
 
-Any way go way :>
+First
 
-you need make download? ok. <a href="https://gabrielramires.github.io/MinecraftServerMenu/Download">Press here for goto the Download Page</a>
-
-<strong>Now using Jekyll!</strong> yay
+```sh
+$ git clone https://github.com/gabrielramires/Jekyll_Template.git
+```

@@ -1,0 +1,39 @@
+<!-- the includes directory default: "../content/custom" -->
+{% assign content_custom = "content/custom"} %}
+
+<!--
+    Summon: A script for call any others scripts
+    Creating: Create a new includer in content\custom for call
+    Calling on Summon: create a exemple: include {{content_custom}}/[filename] put on the liquid exemple: {% if null %}bla bla bla{% endif %}
+-->
+
+<!-- REMEMBER: CAN'T PUT THE HEADER OR FOOTER IT WILL ALREADY BE ACTIVATED -->
+
+<!-- Calling center! -->
+{% include {{content_custom}}/page_empity %}
+
+
+
+
+
+
+
+
+
+
+
+<!-- Pre runs: -->
+
+<!-- Verify if existence of the footer.html and header.html -->
+{% capture fileExists_footer %}{% file_exists _includes/content/custom/footer.html %}{% endcapture %}
+{% if fileExists_footer == "true" %}
+    {% include {{content_custom}}/footer.html %}
+    <script> document.getElementsByClassName("site-footer h-card")[0].remove() </script>
+{% endif %}
+
+{% capture fileExists_header %}{% file_exists _includes/content/custom/header.html %}{% endcapture %}
+{% if fileExists_header == "true" %}
+    {% include {{content_custom}}/header.html %}
+    <script> document.getElementsByClassName("site-header")[0].remove() </script>
+{% endif %}
+

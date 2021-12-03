@@ -1,0 +1,15 @@
+members:
+  - name: Gabriel Ramires
+    creator: true
+    github: gabrielramires
+    note: "The best guy forever"
+
+  - name: Arthur Ft
+    creator: false
+    github: ArthurFt
+    note: "(Test User)"
+
+  - name: Felps
+    creator: false
+    twitter: feeeelps
+    note: "Among Us"

@@ -1,0 +1,6 @@
+{% if include.file == "" or include.file == null %}
+<script>console.warn("NO1!")</script>
+{% else %}
+{% assign type_arg = {{include.type}} %}
+    {% include content/module/{{ include.file | split: ".html" }} type=type_arg %}
+{% endif %}

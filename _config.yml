@@ -1,6 +1,6 @@
-title: Free Template From Jekyll
+title: Eazy Jekyll
 description: >-
-  A Cool Template from jekyll
+  Wow it's never been easier to use jekyll!
 
 # url system:
 baseurl: "" # if you gona run he in localhost remember to define null or use "$ jekyll server --baseurl=''"

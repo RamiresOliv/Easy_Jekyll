@@ -11,7 +11,7 @@ title: Home
 
 <b>About Websites</b>
 
-- Thanks for using the Jekyll Template <a href="https://github.com/gabrielramires/Jekyll_Template">see here</a>
+- Thanks for using the {{ site.title }} <a href="https://github.com/gabrielramires/Jekyll_Template">see here</a>
 - Okay Start using the <a href="Docs">Docs/GettingStart</a>
 
 <b>Not sure how to get started after starting the server?</b>

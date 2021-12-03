@@ -2,6 +2,8 @@
 
 > How i get Started?
 
+REMEBER: you need the ruby and git installed!
+
 1. Use:
 
 ```sh

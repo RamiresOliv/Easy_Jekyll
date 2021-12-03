@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: Docs/GettingStart
+permalink: /Docs
 date: 2021-11-30 14:30
 ---
 
@@ -20,7 +20,7 @@ date: 2021-11-30 14:30
 Olá desenvolvedores!\
 ... esse sera meu ponto de vista sobre o Jekyll e como eu começei a criar um Website!
 
-<h3><a href=".">Back</a></h3>
+<h3><a href="..">Back</a></h3>
 
 Sumario:\
 <a href="#sobre-criação-de-sites">Sobre Criação de sites</a>\

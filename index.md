@@ -5,9 +5,19 @@ title: Home
 
 <p><i>{{ site.description }}</i></p>
 
-Hello Everyone!\
-Thanks for using the `RamiresOliv Template` <a href="">see here</a>\
-Okay Start using the <a href="Docs/GettingStart">Docs/GettingStart</a>
+<br>
+<h1>Hello World!</h1>
+
+<b>About Websites</b>
+
+- Thanks for using the Jekyll Template <a href="https://github.com/gabrielramires/Jekyll_Template">see here</a>
+- Okay Start using the <a href="Docs">Docs/GettingStart</a>
+
+<b>Not sure how to get started after starting the server?</b>
+
+<li>See this <a href="./Beginning">document</a> it can help you</li>
+
+<br>
 
 <h3>Peoples:</h3>
 <ul>

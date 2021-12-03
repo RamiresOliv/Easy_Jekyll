@@ -2,7 +2,7 @@
 
 > How i get Started?
 
-First
+First Use:\
 
 ```sh
 $ git clone https://github.com/gabrielramires/Jekyll_Template.git

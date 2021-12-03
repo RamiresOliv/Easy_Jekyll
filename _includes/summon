@@ -1,25 +1,8 @@
-<!-- the includes directory default: "content" -->
+{{ <!-- the includes directory default: "content" --> }}
 {% assign starter_folder = "content"} %}
 
-
-<!-- 
-                           Confirm to CALL:
-after you created the file in content/custom
-goto the file _data/include/files_confirmation.yml and put the new file and descripiton
-Exemple:
-
-files_confirmated:
-  - name: "page_empty"
-    desc: "If the Page stay Empty the user goto a error page 204"
-  - name: "My_New_File"
-    desc: "Cool anti cheat"
-
-The descripition its not require
--->
-
-{% for file in site.data.include.files_confirmation.files_confirmated %}
-    {% capture fileExist %}{% file_exists _includes/{{starter_folder}}/custom/{{file.name}} %}{% endcapture %}
-    {% if fileExist == "true" %}
-    {% include {{starter_folder}}/custom/{{file.name}} %}
-    {% endif %}
-{% endfor %}
+{% for file in site.data.include.files_confirmation.files_confirmated %} {%
+capture fileExist %}{% file_exists _includes/{{starter_folder}}/custom/{{file.name}} %}{% endcapture %} 
+{% if fileExist == "true" %}
+{% include {{starter_folder}}/custom/{{file.name}} %}
+{% endif %} {% endfor %}

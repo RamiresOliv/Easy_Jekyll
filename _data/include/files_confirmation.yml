@@ -1,3 +1,4 @@
 files_confirmated:
   - name: "page_empty"
+    enabled: false
     desc: "If the Page stay Empty the user goto a error page 204"

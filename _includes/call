@@ -1,6 +1,23 @@
 {% if include.file != "" or include.file != null %}
-    {% assign type_arg = {{include.type}} %}
-    {% include content/module/{{ include.file | split: ".html" }} type=type_arg %}
+    {% for file in site.data.include.module_files_args_config.files %}
+        {% if file.file_name == include.file %}
+            {% if file.args1 != "" or file.args1 != null %}
+                {% assign argmentfound = include[file.args1] %}
+                {% assign argmentparam = file.args1 %}
+                {% include content/module/{{ include.file }} type=argmentfound add=argmentfound start=argmentfound %}
+                {% break %}
+            {% else %}
+                {% include content/module/{{ include.file }} %}
+                {% break %}
+            {% endif %}
+        {% else %}
+            <b>Can't call the file {{include.file}} he can't confirmated in data/include/module_files_args_config.yml see more informations <a href="{{ site.url }}/Docs/Includes#criando-arquivos-versão-module">here</a></b>
+        {% endif %}
+    {% endfor %}
+
 {% else %}
     <b>Can't call the file {{include.file}}</b>
 {% endif %}
+
+
+<!-- include content/module/{{ include.file | split: ".html" }} type=type_arg -->

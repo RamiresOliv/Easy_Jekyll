@@ -3,8 +3,6 @@ layout: default
 permalink: Docs/Beginning
 ---
 
-{% include call file="falaroi" %}
-
 <style>
 #scriptline {
     padding: 5.1px;

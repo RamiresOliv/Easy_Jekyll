@@ -1,39 +1,25 @@
-<!-- the includes directory default: "../content/custom" -->
-{% assign content_custom = "content/custom"} %}
+<!-- the includes directory default: "content" -->
+{% assign starter_folder = "content"} %}
 
-<!--
-    Summon File: A script for call any others scripts
-    Creating: Create a new includer in content\custom for call
-    Calling on Summon: create a exemple: include {{content_custom}}/[filename] put on the liquid exemple: {% if null %}bla bla bla{% endif %}
+
+<!-- 
+                           Confirm to CALL:
+after you created the file in content/custom
+goto the file _data/include/files_confirmation.yml and put the new file and descripiton
+Exemple:
+
+files_confirmated:
+  - name: "page_empty"
+    desc: "If the Page stay Empty the user goto a error page 204"
+  - name: "My_New_File"
+    desc: "Cool anti cheat"
+
+The descripition its not require
 -->
 
-<!-- REMEMBER: CAN'T PUT THE HEADER OR FOOTER IT WILL ALREADY BE ACTIVATED -->
-
-<!-- Calling center! -->
-{% include {{content_custom}}/page_empity %}
-
-<!-- Lets take a exemple! first -->
-
-
-
-
-
-
-
-
-
-<!-- Pre runs: -->
-
-<!-- Verify if existence of the footer.html and header.html -->
-{% capture fileExists_footer %}{% file_exists _includes/content/custom/footer.html %}{% endcapture %}
-{% if fileExists_footer == "true" %}
-    {% include {{content_custom}}/footer.html %}
-    <script> document.getElementsByClassName("site-footer h-card")[0].remove() </script>
-{% endif %}
-
-{% capture fileExists_header %}{% file_exists _includes/content/custom/header.html %}{% endcapture %}
-{% if fileExists_header == "true" %}
-    {% include {{content_custom}}/header.html %}
-    <script> document.getElementsByClassName("site-header")[0].remove() </script>
-{% endif %}
-
+{% for file in site.data.include.files_confirmation.files_confirmated %}
+    {% capture fileExist %}{% file_exists _includes/{{starter_folder}}/custom/{{file.name}} %}{% endcapture %}
+    {% if fileExist == "true" %}
+    {% include {{starter_folder}}/custom/{{file.name}} %}
+    {% endif %}
+{% endfor %}

@@ -6,6 +6,7 @@ title: Home
 <p><i>{{ site.description }}</i></p>
 
 <br>
+
 <h1>Hello World!</h1>
 
 <b>About Websites</b>
@@ -22,6 +23,7 @@ title: Home
 <h3>Peoples:</h3>
 <ul>
 {% for member in site.data.people.members %}
+  <p>{{member}}<p>
   <li>
     {% if member.github == nil %}
     <a target="_blank" href="https://twitter.com/{{ member.twitter }}">

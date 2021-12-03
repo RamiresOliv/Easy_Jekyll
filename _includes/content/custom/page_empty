@@ -1,0 +1,5 @@
+{% if page.content == null or page.content == "" %}
+    <script>
+        window.location.href = "{{ site.url }}/204?page_title={{page.name}}";
+    </script>
+{% endif %}

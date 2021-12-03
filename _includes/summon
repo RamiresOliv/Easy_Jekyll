@@ -2,7 +2,7 @@
 {% assign content_custom = "content/custom"} %}
 
 <!--
-    Summon: A script for call any others scripts
+    Summon File: A script for call any others scripts
     Creating: Create a new includer in content\custom for call
     Calling on Summon: create a exemple: include {{content_custom}}/[filename] put on the liquid exemple: {% if null %}bla bla bla{% endif %}
 -->
@@ -12,7 +12,7 @@
 <!-- Calling center! -->
 {% include {{content_custom}}/page_empity %}
 
-
+<!-- Lets take a exemple! first -->
 
 
 

@@ -20,6 +20,10 @@ date: 2021-11-30 14:30
 Olá desenvolvedores!\
 ... esse sera meu ponto de vista sobre o Jekyll e como eu começei a criar um Website!
 
+<small><b>Not sure how to get started after starting the server?</b></small><br>
+
+<li><small>See this <a href="./Beginning">document</a> it can help you</small></li>
+
 <h3><a href="..">Back</a></h3>
 
 Sumario:\
@@ -97,17 +101,3 @@ Na pagina de <a target="_blank" href="https://rubyinstaller.org/downloads">Insta
 
    Bem... A parte de Hospedagem terei que deixar em branco talvez você use o Github? ou outro lugar em fim aqui algumas documentações sobre hospedagem no github pelo Jekyll:\
    <a target="_blank" href="https://jekyllrb.com/docs/continuous-integration/github-actions/#build-and-deploy">Build And Deploy</a>
-
-{% if site.url contains 'localhost' %}
-<br>
-
-<h3><strong>Good Job!</strong><h3>
- <li><strong style="color: green;">Nice! it looks like you can run this website in Jekyll!</strong></li><br>
-<small>If this message is appearing it means that you are running the website on a localhost <i>(in jekyll)</i></small><br>
-
-<small>if you really running u can change anything, let free for change anything</small><br>
-
-<small><b>Not sure how to get started after starting the server?</b></small><br>
-
-<li><small>See this <a href="./Beginning">document</a> it can help you</small></li>
-  {% endif %}

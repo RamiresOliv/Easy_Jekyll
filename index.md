@@ -15,7 +15,7 @@ title: Home
 
 <b>Not sure how to get started after starting the server?</b>
 
-<li>See this <a href="./Beginning">document</a> it can help you</li>
+<li>See this <a href="Docs/Beginning">document</a> it can help you</li>
 
 <br>
 

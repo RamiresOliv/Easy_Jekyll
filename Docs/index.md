@@ -5,7 +5,7 @@ date: 2021-11-30 14:30
 ---
 
 <style>
-#scriptline {
+#scriptcode {
     padding: 5.1px;
     color: white;
     background-color: black;
@@ -43,7 +43,7 @@ Mas uma coisa legal de Websites é que existe MUITAS ferramentas de desenvolveme
 
 ## Hospedagem
 
-O sistema de Hospedagem é utilizado como o nome fala Hospedar a aplicação existe também muitos lugares para fazer isso como uma delas o proprio <a target="_blank" href="https://github.com">Github</a> com o <a target="_blank" href="https://pages.github.com">Github Pages</a> Tem como você criar um site pelo <a target="_blank" href="https://github.com">Github</a> usando <a target="_blank" href="https://pages.github.com">Github Pages</a> ou Hospedar um Site neles também existe outros metodos pagos e de graça para hospedar o seu Site como VPS _(Servidor Virtual Privado)_, Cloud _(Hospedagem na nuvem)_, <a target="_blank" href="https://www.godaddy.com/pt-br">GoDaddy</a>, <a target="_blank" href="https://umbler.com/br">Umbler</a>, <a target="_blank" href="www.heroku.com">Heroku</a> e muito mais _(NOTA: algumas de graça ou pagas)_.
+O sistema de Hospedagem é utilizado como o nome fala Hospedar a aplicação existe também muitos lugares para fazer isso como uma delas o proprio <a target="_blank" href="https://github.com">Github</a> com o <a target="_blank" href="https://pages.github.com">Github Pages</a> Tem como você criar um site pelo <a target="_blank" href="https://github.com">Github</a> usando <a target="_blank" href="https://pages.github.com">Github Pages</a> ou Hospedar um Site neles também existe outros metodos pagos e de graça para hospedar o seu Site como VPS _(Servidor Virtual Privado)_, Cloud _(Hospedagem na nuvem)_, <a target="_blank" href="https://www.godaddy.com/pt-br">GoDaddy</a>, <a target="_blank" href="https://umbler.com/br">Umbler</a>, <a target="_blank" href="https://www.heroku.com">Heroku</a> e muito mais _(NOTA: algumas de graça ou pagas)_.
 
 ## Dominio & Dominio Proprio
 
@@ -73,31 +73,57 @@ Na pagina de <a target="_blank" href="https://rubyinstaller.org/downloads">Insta
 
 ## <b>Usando CMD ou Power Shell</b>
 
-1. Intalando Jekyll em Ruby
+1.  Intalando Jekyll em Ruby
 
-   - <line id="scriptline"><line style="color: yellow;">gem</line> install Jekyll</line><br>
+    - <code
+       id="scriptcode
+      "><code
+       style="color: yellow;">gem</code
+      > install Jekyll</code
+      > <br>
 
-2. Construindo um Projeto em Jekyll
+2.  Construindo um Projeto em Jekyll
 
-   - <line id="scriptline"><line style="color: yellow;">jekyll</line> new <line style="color: rgb(0, 162, 255);">"CoolWebsite"</line></line><br>
+    - <code
+       id="scriptcode
+      "><code
+       style="color: yellow;">jekyll</code
+      > new <code
+      >  style="color: rgb(0, 162, 255);">"CoolWebsite"</code
+      > </code
+      > <br>
 
-3. Abrindo o Projeto no CMD ou Power Shell
+3.  Abrindo o Projeto no CMD ou Power Shell
 
-   - <line id="scriptline">cd CoolWebsite</line><br>
+    - <code
+       id="scriptcode
+      ">cd CoolWebsite</code
+      > <br>
 
-4. Executando um Servidor Local com Jekyll
+4.  Executando um Servidor Local com Jekyll
 
-   - Execuções:
+    - Execuções:
 
-     1. Normal:
+      1.  Normal:
 
-        - <line id="scriptline"><line style="color: rgb(216, 219, 0);">jekyll</line> server</line><br>
+          - <code
+             id="scriptcode
+            "><code
+             style="color: rgb(216, 219, 0);">jekyll</code
+            > server</code
+            > <br>
 
-     2. Com alguma informação a mais:
-        - <line id="scriptline"><line style="color: yellow;">jekyll</line> server <line style="color: rgb(46, 46, 46);">--port=4001</line></line>\
-          <small>_(por exemplo `baseurl` caso você tenha o projeto no Github você tera que alterar o `baseurl` para não gerar erros)_</small>
+      2.  Com alguma informação a mais:
+          - <code
+             id="scriptcode
+            "><code style="color: yellow;">jekyll</code
+            > server <code
+            >  style="color: rgb(46, 46, 46);">--port=4001</code
+            > </code
+            > \
+                <small>_(por exemplo `baseurl` caso você tenha o projeto no Github você tera que alterar o `baseurl` para não gerar erros)_</small>
 
-5. Hospedagem
+5.  Hospedagem
 
-   Bem... A parte de Hospedagem terei que deixar em branco talvez você use o Github? ou outro lugar em fim aqui algumas documentações sobre hospedagem no github pelo Jekyll:\
-   <a target="_blank" href="https://jekyllrb.com/docs/continuous-integration/github-actions/#build-and-deploy">Build And Deploy</a>
+    Bem... A parte de Hospedagem terei que deixar em branco talvez você use o Github? ou outro lugar em fim aqui algumas documentações sobre hospedagem no github pelo Jekyll:\
+    <a target="_blank" href="https://jekyllrb.com/docs/continuous-integration/github-actions/#build-and-deploy">Build And Deploy</a>

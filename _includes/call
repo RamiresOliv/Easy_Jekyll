@@ -1,6 +1,7 @@
 {% if include.file != "" or include.file != null %}
     {% for file in site.data.include.module_files_args_config.files %}
         {% if file.file_name == include.file %}
+        {{include[0]}}
             {% if file.args1 != "" or file.args1 != null %}
                 {% assign argmentfound = include[file.args1] %}
                 {% assign argmentparam = file.args1 %}
@@ -16,7 +17,7 @@
     {% endfor %}
 
 {% else %}
-    <b>Can't call the file {{include.file}}</b>
+    <b>Can't call the file {{include.file}} its empty</b>
 {% endif %}
 
 

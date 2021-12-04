@@ -1,1 +1,22 @@
-<h1><b>/e dance</b> = pato com oculos</h1>
+<style>
+scriptcode {
+    padding: 5.1px;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 3px 7px 2px rgb(0 0 0 / 2%);
+    border-radius: 5px;
+}
+
+.Body_Content {
+    text-align: center;
+}
+
+#color-yellow {
+    color: yellow;
+}
+</style>
+
+<div class="Body_Content">
+    <h1><b>/e dance</b> = pato com oculos</h1>
+    <p>Nossa mas namoral ve isso: <scriptcode id="color-yellow">{{ include.info }}</scriptcode></p>
+</div>

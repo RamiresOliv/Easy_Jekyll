@@ -2,4 +2,4 @@
 layout: default
 ---
 
-{% include call file="teste" %}
+{% include call file="teste" info="fsfsdfsd" %}

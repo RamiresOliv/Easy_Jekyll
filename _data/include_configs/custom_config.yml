@@ -1,7 +1,8 @@
 files_confirmation:
   - name: "page_empty"
-    enabled: true
     desc: "If the Page stay Empty the user goto a error page 204"
+    enabled: true
+    sub_path: ""
 
   - name: "water_mark"
     desc: "Cool Water Mark from the template but if you don't like remove he changing the value enabled to false in the module_config.yml"
@@ -9,6 +10,6 @@ files_confirmation:
     sub_path: "console/log" # Attetions its work like this: if the file its into a another folder in the custom folder you need add the patch exemple: my file into a "script" you need put: "script" or another exemple: my file into a "script/lua"  you need put: "script/lua" difene null if the file its into a custom
 
   - name: "delete_head"
-    enabled: false
     desc: "N/A"
-    sub_path: "script"
+    enabled: false
+    sub_path: "scripts"

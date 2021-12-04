@@ -12,6 +12,15 @@
             {% if file.enabled == true %}
 {% include content/custom/{{file.sub_path}}/{{file.name}} %}
             {% endif %}
+        {% else %}
+<script id="sommon_error_cant_find_the_file_script">
+
+    console.warn("Can't Find {{ file }}")
+
+    setTimeout(() => {
+        document.getElementById("sommon_error_cant_find_the_file_script").remove();
+    });
+</script>
         {% endif %}
     {% endif %}
 {% endfor %}

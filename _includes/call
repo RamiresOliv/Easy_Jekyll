@@ -1,5 +1,5 @@
 {% if include.file != "" or include.file != null %}
-    {% for file in site.data.include.module_config.files_args_configs %}
+    {% for file in site.data.include_configs.module_config.files_args_configs %}
         {% capture fileExist %}{% file_exists _includes/content/module/{{file.name}} %}{% endcapture %}
             {% if fileExist == "true" %}
                 {% if file.file_name == include.file %}

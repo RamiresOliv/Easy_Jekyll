@@ -1,6 +1,6 @@
 {{ <!-- the includes directory default: "content" --> }}
 {% assign starter_folder = "content"} %}
-{% for file in site.data.include.custom_config.files_confirmation %}
+{% for file in site.data.include_configs.custom_config.files_confirmation %}
     {% capture fileExist_custom %}{% file_exists _includes/content/custom/{{file.name}} %}{% endcapture %}
     {% if fileExist_custom == "true" %}
         {% if file.enabled == true %}

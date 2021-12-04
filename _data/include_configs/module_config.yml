@@ -1,5 +1,3 @@
 files_args_configs:
   - file_name: "figures"
     args1: type
-  - file_name: "teste"
-    args1: info

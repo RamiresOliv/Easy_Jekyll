@@ -1,5 +1,5 @@
 {% if include.type == "" or include.type == '' or include.type == null %}
-<b>[figures in call]: Can't Run the image the param 'type' its empty</b>
+<b style="color: red;">Can't Run the image the param 'type' its empty</b>
 {% else %}
     {% if include.type == "404" %}
         {% if site.url contains "localhost" %}
@@ -25,6 +25,6 @@
 <img style="width: 200px; height: 200px;" src="{{ site.url }}/{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/Assets/Images/error203Img.png" alt="Error '{{ site.url }}/{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/Assets/Images/error203Img.png' not loadded (MSG error not loadded)">
         {% endif %}
     {% else %}
-<b>[figures in call]: Can't Run the image the name '{{ include.type }}' not exists<b>
+<b style="color: red;">Can't Run the image '{{ include.type }}' not found</b>
     {% endif %}
 {% endif %}

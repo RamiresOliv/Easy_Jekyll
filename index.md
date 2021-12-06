@@ -25,22 +25,25 @@ title: Home
 {% for member in site.data.people.members %}
   <li>
     {% if member.github == nil %}
-    <a target="_blank" href="https://twitter.com/{{ member.twitter }}">
+<a target="_blank" href="https://twitter.com/{{ member.twitter }}">
       {{ member.name }} </a>
-        {% if member.creator == false %} Not Creator {% elsif member.creator == true %} Valid Creator {% else %} Creator its null! {% endif %}
+        {% if member.creator == false %} Not Creator {% elsif member.creator == true %} Creator {% endif %}
 
-        {% if member.note == nil %}
-        idk
-        {% else %}
+        {% if member.note != nil %}
             {{ member.note }}
         {% endif %}
     {% elsif member.twitter == nil %}
-    <a target="_blank" href="https://github.com/{{ member.github }}">
+
+<a target="_blank" href="https://github.com/{{ member.github }}">
         {{ member.name }} </a>
-        {% if member.creator == false %} Not Creator {% elsif member.creator == true %} Valid Creator {% else %} Creator its null! {% endif %}
-        {{ member.note }}
+        {% if member.creator == false %} Not Creator {% elsif member.creator == true %} Creator {% endif %}
+
+        {% if member.note != nil %}
+            {{ member.note }}
+        {% endif %}
     {% else %}
-    <p>Invalid value</p>
+
+<p>Invalid value</p>
     {% endif %}
 
   </li>

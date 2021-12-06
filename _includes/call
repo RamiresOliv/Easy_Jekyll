@@ -5,7 +5,7 @@
                 {% if file.file_name == include.file %}
                     {% if file.args1 != "" or file.args1 != null %}
                     {% assign argumentfound = include[file.args1] %}
-{% include content/module/{{ include.file }} info=argumentfound type=argumentfound add=argumentfound start=argumentfound %}
+{% include content/module/{{ include.file }} content=argumentfound info=argumentfound type=argumentfound add=argumentfound start=argumentfound %}
                     {% break %}
                 {% else %}
 {% include content/module/{{ include.file }} %}
@@ -13,9 +13,9 @@
                 {% endif %}
             {% endif %}
         {% else %}
-<b>Can't Found the file {{include.file}} in the directory 'content/module' see more informations <a href="{{ site.url }}/Docs/Includes#criando-arquivos-versão-module">here</a></b>
+<b>Can't Found the file {{ include.file }} in the directory 'content/module' see more informations <a href="{{ site.url }}/Docs/Includes#criando-arquivos-versão-module">here</a></b>
         {% endif %}
     {% endfor %}
 {% else %}
-<b>Can't call the file {{include.file}} its empty</b>
+<b>Can't call the file {{ include.file }} its empty</b>
 {% endif %}

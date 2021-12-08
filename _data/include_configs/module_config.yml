@@ -1,3 +1,8 @@
 files_args_configs:
   - file_name: "figures"
     args1: type
+  - file_name: "deletf"
+    args1: type
+module:
+  enabled: true
+  normal_path: content/module

@@ -31,8 +31,8 @@
       {% include call file="figures" type="204" %}
       <div class="TitlesC" id="titles">
         <h1>204</h1>
-        <p id="204_msg">{{ page.204_msg }}</p>
         <p><strong id="ErrorMsg_SubTitle">Oops! We Tried But, No content.</strong></p>
+        <p id="ErrorMsg_info"></p>
         <p>Try again later or try go to <a href="{{ site.url }}">Main Page</a></p>
         <br>
       </div>

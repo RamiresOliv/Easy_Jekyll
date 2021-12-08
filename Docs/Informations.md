@@ -27,13 +27,13 @@ Olá desenvolvedores!\
 <h3><a href=".">Back</a></h3>
 
 Sumario:\
-<a href="#sobre-criação-de-sites">Sobre Criação de sites</a>\
-<a href="#sobre-jekyll">Sobre Jekyll</a>\
-<a href="#começando-com-jekyll">Usando Jekyll</a>
+<a onclick="sumario(1)" href="#sobre-criação-de-sites">Sobre Criação de sites</a>\
+<a onclick="sumario(2)" href="#sobre-jekyll">Sobre Jekyll</a>\
+<a onclick="sumario(3)" href="#começando-com-jekyll">Usando Jekyll</a>
 
----
+<hr>
 
-# Sobre Criação de Sites
+# <span id="1">Sobre Criação de Sites</span>
 
 ## Sobre & Ferramentas
 
@@ -49,7 +49,7 @@ O sistema de Hospedagem é utilizado como o nome fala Hospedar a aplicação exi
 
 Bem como o mundo não é um mar de rosas os lugares que hospedam os Websites Precisão de um Proprio dominio como esse: <a target="_blank" href="https://gabrielramires.github.io/MinecraftServerMenu">https://gabrielramires.github.io/MinecraftServerMenu</a> isso é um dominio NÃO PROPRIO sendo assim um dominio que ira aparecer seu nome e o lugar _github.io_. Mas existe um metodo de conseguir mudar esse dominio comprando um dominio exemplos: .com, .org, .co e etc.
 
-# Sobre Jekyll
+# <span id="2">Sobre Jekyll</span>
 
 Uma feramenta que eu uso para criar os meus websites usando o <a target="_blank" href="https://pages.github.com">Github</a> para Hospeda-los e criado em base de Ruby.
 
@@ -57,9 +57,9 @@ Verifique as informações de <a target="_blank" href="#começar-a-usar-o-jekyll
 
 <br><br>
 
-# Começando com Jekyll
+# <span id="3">Começando com Jekyll</span>
 
----
+<hr>
 
 ## <b>Instalação de Ruby</b>
 
@@ -67,7 +67,7 @@ Na pagina de <a target="_blank" href="https://rubyinstaller.org/downloads">Insta
 
 <a target="_blank" href="../Assets/Images/RubyInstallScreamShoot.png"><img src="../Assets/Images/RubyInstallScreamShoot.png" alt="RubyInstallScreamShoot.png (NO LOADDED)"></a>
 
----
+<hr>
 
 <br><br>
 
@@ -77,9 +77,9 @@ Na pagina de <a target="_blank" href="https://rubyinstaller.org/downloads">Insta
 
     - <code_style id="scriptcode"><code_style style="color: yellow;">gem</code_style> install Jekyll</code_style> <br>
 
-2.  Construindo um Projeto em Jekyll
+2.  Construindo um Projeto em Jekyll usando o Eazy_Jekyll!
 
-    - <code_style id="scriptcode"><code_style style="color: yellow;">jekyll</code_style> new <code_style style="color: rgb(0, 162, 255)">"CoolWebsite"<code_style> </code_style> <br>
+    - <code_style id="scriptcode"><code_style style="color: yellow;">git</code_style> clone <code_style style="color: rgb(0, 162, 255)">"CoolWebsite"<code_style> </code_style> <br>
 
 3.  Abrindo o Projeto no CMD ou Power Shell
 
@@ -94,10 +94,41 @@ Na pagina de <a target="_blank" href="https://rubyinstaller.org/downloads">Insta
           - <code_style id="scriptcode"><code_style style="color: rgb(216, 219, 0);">jekyll</code_style> server</code_style> <br>
 
       2.  Com alguma informação a mais:
-          - <code_style id="scriptcode"><code_style style="color: yellow;">jekyll</code_style> server <code_style style="color: rgb(46, 46, 46);">--port=4001</code_style> </code_style> \
-             <small>\<i>(por exemplo `baseurl` caso você tenha o projeto no Github você tera que alterar o `baseurl` para não gerar erros)\</i></small>
+
+          - <code_style id="scriptcode"><code_style style="color: yellow;">jekyll</code_style> server <code_style style="color: rgb(46, 46, 46);">--port=4001</code_style></code_style>\
+            <small><i>(por exemplo `baseurl` caso você tenha o projeto no Github você tera que alterar o `baseurl` para não gerar erros)</i></small>
 
 5.  Hospedagem
 
     Bem... A parte de Hospedagem terei que deixar em branco talvez você use o Github? ou outro lugar em fim aqui algumas documentações sobre hospedagem no github pelo Jekyll:\
     <a target="_blank" href="https://jekyllrb.com/docs/continuous-integration/github-actions/#build-and-deploy">Build And Deploy</a>
+
+{% script %}
+function sumario(tipo) {
+const titulo = document.getElementById(tipo)
+const normal_background_color = titulo.style["background-color"]
+
+console.log(normal_background_color)
+
+titulo.style = "background-color: yellow"
+setTimeout(() => {
+titulo.style = `background-color: ${normal_background_color}`
+}, 3000)
+}
+{% endscript %}
+
+<!--
+<script>
+    function sumario(tipo) {
+        const titulo = document.getElementById(tipo)
+        const normal_background_color = titulo.style["background-color"]
+
+        console.log(normal_background_color)
+
+        titulo.style = "background-color: yellow"
+        setTimeout(() => {
+        titulo.style = `background-color: ${normal_background_color}`
+        }, 3000)
+    }
+</script>
+-->

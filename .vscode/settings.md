@@ -2,7 +2,7 @@
 
 Material Icon Theme configs: _(i use)_
 
-```jsonify
+```json
 "material-icon-theme.folders.associations": {
         "jekyll": "Project",
         "jekyll-cache": "cache",

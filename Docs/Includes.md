@@ -6,30 +6,27 @@ permalink: Docs/Includes
 
 ## <b>\_includes</b>
 
-<h3><a href="..">Back</a></h3>
+<h3><a href=".">Back</a></h3>
 
 Sumario:
 
-- <a onclick="sumario(1)" href="#criação-do-primeiro-aquivo-versão-custom">Criação do Primeiro aquivo em custom</a>
-- <a onclick="sumario(2)" href="#criando-arquivos-versão-module">Criação do Primeiro aquivo em Module</a>
-- <a onclick="sumario(3)" href="#é-permitido-editar-os-arquivos-da-pasta-includes">É permitido editar os arquivos da pasta includes?</a>
+- <a onclick="sumario(1)" href="#informações-importantes">Informações importantes</a>
+- <a onclick="sumario(2)" href="#criação-do-primeiro-aquivo-versão-custom">Criação do Primeiro aquivo em custom</a>
+- <a onclick="sumario(3)" href="#criando-arquivos-versão-module">Criação do Primeiro aquivo em Module</a>
+- <a onclick="sumario(4)" href="#é-permitido-editar-os-arquivos-da-pasta-includes">É permitido editar os arquivos da pasta includes?</a>
 
-Bem, essa pasta é basicamente uma pasta de Incluzões exemplo: você esta tentando implementar um arquivo `.html` mas não sabe como...
+<h1>Includes <br> Arquivos chamaveis e fácil de utilizar</h1>
 
-dentro dessa pasta á algums arquivos:
+---
 
-- \_includes: <b>Inicio</b>
-  - content: <b>a pasta PRINCIPAL das sub pastas como `custom` e `module`</b>
-    - custom: <b>Arquivos inclusivos custumizaveis <i>(<a href="#">Criação do Primeiro aquivo</a>)</i></b>
-      - footer: <b>Arquivo já definido para mudanças do roda pé do site</b>
-      - header: <b>Arquivo já definido para mudanças da cabeça visivel do site</b>
-      - page_empity: <b>Arquivo já definido para caso uma pagina esteja em branco</b>
-    - module: <b>Aquivos chamaveis pelo arquivo `call` (NÃO SERA EXECUTADO AUTOMATICAMENTE)</b>
-  - call: <b>chame qualquer script da pasta `module` como: `include call file="figures.html" type="204"`</b>
-  - summon: <b>Sumona as funções que se inicia com todos os arquivos do custom</b>
-  - head.html: <b>Arquivo já definido para mudanças da cabeça não visivel do site</b>
+<br><br><br>
 
-### <b id="1">Criação do Primeiro aquivo Versão Custom</b>
+### <b id="1">Informações importantes</b>
+
+1. Onde posso ver se ocorreu um erro?
+   - Os erros ira aparecer no `console` do Website
+
+### <b id="2">Criação do Primeiro aquivo Versão Custom</b>
 
 1. Criando o Arquivo:
 
@@ -50,7 +47,7 @@ dentro dessa pasta á algums arquivos:
 3. Verificando se funcionou... <br>
    <img src="{{ site.url }}/Assets/Images/Includes5Img.png" alt="ERROR: não foi possivel carregar a demonstração..."> <br> Bom trabalho se isso apareceu funcionou :D
 
-### <b id="2">Criando Arquivos Versão Module</b>
+### <b id="3">Criando Arquivos Versão Module</b>
 
 1. Criando o Arquivo:
 
@@ -72,9 +69,9 @@ dentro dessa pasta á algums arquivos:
 3. Verificando se funcionou... <br>
    <img src="{{ site.url }}/Assets/Images/Includes5Img.png" alt="ERROR: não foi possivel carregar a demonstração..."> <br> Bom trabalho se isso apareceu funcionou, uma coisa interesante sobre o `module` é que o arquivo só pode ser chamado pela pagina que ele foi chamado e a linha, você também pode configurar o aquivo que ao ser chamado se transformar em uma flor ou outra imagem programada que é oque acontece com o `figures` dentro de `modules`
 
-### <b id="3">É permitido editar os arquivos da pasta includes?</b>
+### <b id="4">É permitido editar os arquivos da pasta includes?</b>
 
-1. Sim! aliaz é uma copia perfeita e você pode refazela a qualquer momento sinta-se avontade de explorar os arquivos e descobrir mais osbre o ``jekyll`!
+1. Sim! aliaz é uma copia perfeita e você pode refazela a qualquer momento sinta-se avontade de explorar os arquivos e descobrir mais osbre o `jekyll`!
 
 <script>
     function sumario(tipo) {

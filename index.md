@@ -9,17 +9,6 @@ title: Home
 
 <h1>Hello World!</h1>
 
-<b>About Websites</b>
-
-- Thanks for using the {{ site.title }} <a href="https://github.com/gabrielramires/Jekyll_Template">see here</a>
-- Okay Start using the <a href="Docs">Docs/GettingStart</a>
-
-<b>Not sure how to get started after starting the server?</b>
-
-<li>See this <a href="Docs/Beginning">document</a> it can help you</li>
-
-<br>
-
 <h3>Peoples:</h3>
 <ul>
 {% for member in site.data.people.members %}
@@ -52,12 +41,25 @@ title: Home
 <small id="ShowCreditsPeople"></small>
 </ul>
 
-<script>
-    var peoplefileopenned = false
+<br><br><br><br>
+
+<b>About from the Template</b>
+
+- Thanks for using the {{ site.title }} <a href="https://github.com/gabrielramires/Jekyll_Template">see here</a>
+- Okay Start using the <a href="Docs">Docs</a>
+
+<b>Not sure how to get started after starting the server?</b>
+
+<li>See this <a href="Docs/After">document</a> it can help you</li>
+
+<br>
+
+{% script %}
+var peoplefileopenned = false
 
     var sel = document.getElementById("Button").getSelection();
     sel.removeAllRanges();
-    
+
     function peoplefileopen() {
         if (peoplefileopenned == true) {
             peoplefileopenned = false;
@@ -74,11 +76,10 @@ title: Home
       creator: false
       github: ArthurFt
       note: "(Test User)"{% endhighlight %}
-    
+
     <a target="_blank" href="Assets/Images/CodeScreamShoot1.png"><img src="Assets/Images/CodeScreamShoot1.png" alt="Code Scream Shoot (UNLOADED)"></a>
     <small>See this <a href="https://gist.github.com/gabrielramires/22652461638c32cfcb7f138140494800">Code</a> in Github</small>`
-
-            
         }
     }
-</script>
+
+{% endscript %}

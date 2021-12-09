@@ -7,7 +7,7 @@ baseurl: "Easy_Jekyll" # if you gona run he in localhost remember to define null
 url: ""
 
 # source and structure settings
-destination: _app/website
+destination: "app/website" # Cool: if you gona publish you webbsite exemple in github remove this for no make errors
 
 # others:
 github_username: gabrielramires

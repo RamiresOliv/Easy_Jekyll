@@ -7,7 +7,7 @@ REMEBER: you need the ruby and git installed!
 1. Use:
 
 ```sh
-$ git clone https://github.com/gabrielramires/Eazy_Jekyll.git
+$ git clone https://github.com/gabrielramires/Easy_Jekyll.git
 ```
 
 2. Afeter Use the git clone just goto the Folder Created and run:

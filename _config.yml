@@ -3,7 +3,7 @@ description: >-
   Wow it's never been easier to use jekyll!
 
 # url system:
-baseurl: "" # if you gona run he in localhost remember to define null or use "$ jekyll server --baseurl=''"
+baseurl: "Easy_Jekyll" # if you gona run he in localhost remember to define null or use "$ jekyll server --baseurl=''"
 url: ""
 
 # source and structure settings

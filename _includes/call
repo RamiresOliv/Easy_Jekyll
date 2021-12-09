@@ -2,20 +2,21 @@
 
 {% if include.file != "" or include.file != null %}
     {% for file in config_file.files_args_configs %}
-        {% capture fileExist %}{% file_exists _includes/{{config_file.module.normal_path}}/{{file.name}} %}{% endcapture %}
+        {% if config_file.config.enabled == false %}{%- break -%}{% endif %}
+        {% capture fileExist %}{% file_exists _includes/{{config_file.config.normal_path}}/{{file.name}} %}{% endcapture %}
         {% if fileExist == "true" %}
             {% if file.file_name == include.file %}
                 {% if file.args1 != "" or file.args1 != null %}
                     {% assign argumentfound = include[file.args1] %}
-{% include {{config_file.module.normal_path}}/{{ include.file }} info=argumentfound type=argumentfound add=argumentfound start=argumentfound %}
+{% include {{config_file.config.normal_path}}/{{ include.file }} type=argumentfound%}
                     {% break %}
                 {% else %}
-{% include {{config_file.module.normal_path}}/{{ include.file }} %}
+{% include {{config_file.config.normal_path}}/{{ include.file }} %}
                     {% break %}
                 {% endif %}
             {% endif %}
         {% else %}
-<b>Can't Found the file {{include.file}} in the directory '{{ config_file.module.normal_path }}' see more informations <a href="{{ site.url }}/Docs/Includes#criando-arquivos-versão-module">here</a></b>
+<b>Can't Found the file {{include.file}} in the directory '{{ config_file.config.normal_path }}' see more informations <a href="{{ site.url }}/Docs/Includes#criando-arquivos-versão-module">here</a></b>
         {% endif %}
     {% endfor %}
 {% else %}

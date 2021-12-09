@@ -52,6 +52,8 @@
     </div>
 
     {% script %}
+    console.error("[Page:content::error]: 204 \n Can't find the content from the page '{{page.name | split:".html" }}' \n Result: Page Content its 'null' or empty, returning ERROR 204...")
+
     const container = document.getElementsByClassName("container")
 
     setTimeout(() => {

@@ -56,30 +56,37 @@ title: Home
 
 {% script %}
 var peoplefileopenned = false
+var sel = document.getElementById("Button").getSelection();
+sel.removeAllRanges();
 
-    var sel = document.getElementById("Button").getSelection();
-    sel.removeAllRanges();
+function peoplefileopen() {
+if (peoplefileopenned == true) {
+peoplefileopenned = false;
+document.getElementById("ShowCreditsPeople").innerHTML = ""
+} else {
+peoplefileopenned = true;
+document.getElementById("ShowCreditsPeople").innerHTML = `
+{% highlight yml %}members:
 
-    function peoplefileopen() {
-        if (peoplefileopenned == true) {
-            peoplefileopenned = false;
-            document.getElementById("ShowCreditsPeople").innerHTML = ""
-        } else {
-            peoplefileopenned = true;
-            document.getElementById("ShowCreditsPeople").innerHTML = `
-            {% highlight yml %}members:
-    - name: Gabriel Ramires
-      creator: true
-      github: gabrielramires
+- name: Gabriel Ramires
+  creator: true
+  github: gabrielramires
+  note: "The best guy forever"
 
-    - name: Arthur Ft
-      creator: false
-      github: ArthurFt
-      note: "(Test User)"{% endhighlight %}
+- name: Arthur Ft
+  creator: false
+  github: ArthurFt
+  note: "(Test User)"
 
-    <a target="_blank" href="Assets/Images/CodeScreamShoot1.png"><img src="Assets/Images/CodeScreamShoot1.png" alt="Code Scream Shoot (UNLOADED)"></a>
-    <small>See this <a href="https://gist.github.com/gabrielramires/22652461638c32cfcb7f138140494800">Code</a> in Github</small>`
-        }
-    }
+- name: Felps
+  creator: false
+  twitter: feeeelps
+  note: "(Test User)"
+
+{% endhighlight %}
+<a target="_blank" href="Assets/Images/CodeScreamShoot1.png"><img src="Assets/Images/CodeScreamShoot1.png" alt="Code Scream Shoot (UNLOADED)"></a>
+<small>See this <a href="https://gist.github.com/gabrielramires/22652461638c32cfcb7f138140494800">Code</a> in Github</small>`
+}
+}
 
 {% endscript %}

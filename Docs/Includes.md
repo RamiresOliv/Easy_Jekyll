@@ -4,6 +4,10 @@ page_in_dev: true
 permalink: Docs/Includes
 ---
 
+<style>
+   
+</style>
+
 ## <b>\_includes</b>
 
 <h3><a href=".">Back</a></h3>
@@ -17,7 +21,7 @@ Sumario:
 
 <h1>Includes <br> Arquivos chamaveis e fácil de utilizar</h1>
 
----
+<hr>
 
 <br><br><br>
 
@@ -73,16 +77,16 @@ Sumario:
 
 1. Sim! aliaz é uma copia perfeita e você pode refazela a qualquer momento sinta-se avontade de explorar os arquivos e descobrir mais osbre o `jekyll`!
 
-<script>
-    function sumario(tipo) {
-        const titulo = document.getElementById(tipo)
-        const normal_background_color = titulo.style["background-color"]
+{% script %}
+function sumario(tipo) {
+const titulo = document.getElementById(tipo)
+const normal_background_color = titulo.style["background-color"]
 
-        console.log(normal_background_color)
+console.log(normal_background_color)
 
-        titulo.style = "background-color: yellow"
-        setTimeout(() => {
-        titulo.style = `background-color: ${normal_background_color}`
-        }, 3000)
-    }
-</script>
+titulo.style = "background-color: yellow"
+setTimeout(() => {
+titulo.style = `background-color: ${normal_background_color}`
+}, 3000)
+}
+{% endscript %}

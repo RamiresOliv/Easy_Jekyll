@@ -1,4 +1,4 @@
-<h1 align="center"> Eazy Jekyll </h1>
+<h1 align="center"> Easy Jekyll </h1>
 
 > How i get Started?
 

@@ -2,6 +2,6 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+gh.bat
 vendor
-Notes/
-gh.cmd
+.vscode/launch.json

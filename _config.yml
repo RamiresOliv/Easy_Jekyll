@@ -6,8 +6,10 @@ description: >-
 baseurl: "" # if you gona run he in localhost remember to define null or use "$ jekyll server --baseurl=''"
 url: ""
 
-# others:
+# source and structure settings
+destination: _app/website
 
+# others:
 github_username: gabrielramires
 
 # Theme:

@@ -7,7 +7,7 @@ baseurl: "" # if you gona run he in localhost remember to define null or use "$ 
 url: ""
 
 # source and structure settings
-destination: _app/website
+destination: app/.website
 
 # others:
 github_username: gabrielramires

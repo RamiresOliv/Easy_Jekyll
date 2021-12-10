@@ -9,4 +9,4 @@ This folder created for put the website informations if in run exemple of folder
 
 (if you add files in this directory not problems)
 
-if you nor understant the directory "\_app/website" its the "\_site"
+if you nor understant the directory "app/.website" its the "\_site"

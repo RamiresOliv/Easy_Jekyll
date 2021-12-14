@@ -4,4 +4,4 @@ app/.website
 .jekyll-metadata
 .gh.bat
 vendor
-.vscode/launch.json
+.vscode

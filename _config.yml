@@ -8,7 +8,7 @@ url: ""
 
 # source and structure settings
 destination: app/.website
-source: ""
+source: "base/public"
 
 # others:
 github_username: gabrielramires

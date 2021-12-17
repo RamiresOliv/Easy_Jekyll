@@ -4,3 +4,5 @@ layout: default
 ---
 
 {% My_Custom_Name World %}
+
+{{ site.url }}

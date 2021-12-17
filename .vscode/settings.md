@@ -6,6 +6,8 @@ Material Icon Theme configs: _(i use)_
 "material-icon-theme.folders.associations": {
         "jekyll": "Project",
         "jekyll-cache": "cache",
+        ".jekyll-cache": "cache",
+        "_jekyll-cache": "cache",
         "include_configs": "include",
         "console": "vm",
         "_posts": "Docs",

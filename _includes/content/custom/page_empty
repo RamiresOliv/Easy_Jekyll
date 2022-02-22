@@ -28,7 +28,7 @@
   </style>
     
     <div class="container">
-      {% include call file="figures" type="204" %}
+      {% include summon file="figures" type="204" %}
       <div class="TitlesC" id="titles">
         <h1>204</h1>
         <p><strong id="ErrorMsg_SubTitle">Oops! We Tried But, No content.</strong></p>
@@ -51,8 +51,8 @@
       </details>
     </div>
 
-    {% script %}
-    console.error("[Page:content::error]: 204 \n Can't find the content from the page '{{page.name | split:".html" }}' \n Result: Page Content its 'null' or empty, returning ERROR 204...")
+  <script>
+    console.error("[Page:content::error]: 204 \n Can't find the content from the page '{{page.name | split:'.html' }}' \n Result: Page Content its 'null' or empty, returning ERROR 204...")
 
     const container = document.getElementsByClassName("container")
 
@@ -60,6 +60,6 @@
         document.getElementsByClassName("page-content")[0].getElementsByClassName("wrapper")[0].appendChild(container[0]);
         document.getElementById("script_block_jekyll").remove();
     });
-    {% endscript %}
+  </script>
   
 {% endif %}

@@ -75,7 +75,7 @@ Sumario:
 
 1. Sim! aliaz é uma copia perfeita e você pode refazela a qualquer momento sinta-se avontade de explorar os arquivos e descobrir mais osbre o `jekyll`!
 
-{% script %}
+<script>
 function sumario(tipo) {
 const titulo = document.getElementById(tipo)
 const normal_background_color = titulo.style["background-color"]
@@ -87,4 +87,4 @@ setTimeout(() => {
 titulo.style = `background-color: ${normal_background_color}`
 }, 3000)
 }
-{% endscript %}
+</script>

@@ -8,7 +8,6 @@ title: Home
 <br>
 
 <h1>Hello World!</h1>
-{% include call file="EEEEEEEEEEEE" %}
 
 <h3>Peoples:</h3>
 <ul>
@@ -44,6 +43,10 @@ title: Home
 
 <br><br><br><br>
 
+<b>Simple Tutorial!</b>
+
+- See <a href="docs/After">here!</a>
+
 <b>About from the Template</b>
 
 - Thanks for using the {{ site.title }} <a href="https://github.com/gabrielramires/Jekyll_Template">see here</a>
@@ -55,7 +58,7 @@ title: Home
 
 <br>
 
-{% script %}
+<script>
 var peoplefileopenned = false
 var sel = document.getElementById("Button").getSelection();
 sel.removeAllRanges();
@@ -94,4 +97,4 @@ index.md file:
 }
 }
 
-{% endscript %}
+</script>

@@ -27,7 +27,7 @@ $ cd bin
 ```
 
 ```cmd
-$ .\bin\server
+$ .\server
 ```
 
 5. Good! now the server Running.

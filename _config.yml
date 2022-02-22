@@ -7,11 +7,10 @@ baseurl: "Easy_Jekyll" # if you gona run he in localhost remember to define null
 url: ""
 
 # source and structure settings
-destination: app/.website
-source: "base/public"
+destination: _app/.website
 
 # others:
-github_username: gabrielramires
+github_username: RamiresOliv
 
 # Theme:
 theme: minima # Just a Remember: if you change this its mayable of the default files in the _includes/content/custom not works.

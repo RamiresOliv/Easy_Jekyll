@@ -1,0 +1,21 @@
+---
+layout: post
+title: "The Updates"
+date: 2022-02-22
+categories: jekyll update
+---
+
+<h1>Hello World</h1>
+
+Well thanks to use :)\
+Ramires Oliv\
+Bem seja bem vindo! aqui eremos falar sobre os updates recentes e antigos do Jekyll_Template.
+
+<br><br>
+
+<h2>UPDATES</h2>
+> Logs From the day `{{ page.date }}` and others
+
+## Upate 2022-02-22
+
+- Added Github Support and LocalHost

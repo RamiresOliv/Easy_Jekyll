@@ -1,0 +1,1 @@
+<script id="watermark_script"> /* be free to change all if you want pls don't remove the water mark :) thx <3 */ console.log("Water Mark::Log this template created by Ramires Oliv\ Github Repo: https://github.com/RamiresOliv/Easy_Jekyll"); document.getElementById("watermark_script").remove(); </script>

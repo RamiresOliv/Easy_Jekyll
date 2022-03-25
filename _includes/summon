@@ -1,0 +1,5 @@
+{%- assign config_file = site.data.include_configs.custom_config -%}
+
+{% for file in config_file.files_confirmation %}
+{% include {{config_file.config.normal_path}}/{{file.name}} %}
+{% endfor %}

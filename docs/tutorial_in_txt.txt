@@ -10,7 +10,7 @@ well lets start with simple?
 
     ATTENTION!: you know ruby?
         if you know you can create your own Tags! in "_plugins"
-        see more here: https://jekyllrb.com/docs/plugins/your-first-plugin/
+        see more here: https://jekyllrb.com/docs/plugins/your-first-plugin
 
     you can see more tutorials better here:
-    https://jekyllrb.com
+        https://jekyllrb.com

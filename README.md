@@ -62,4 +62,4 @@ $ .\server
   - Disclose source
   - Same license
 
-(c) (RamiresOliv)[..]
+(c) (RamiresOliv)[/..]

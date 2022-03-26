@@ -13,8 +13,10 @@ Hey take it easy the project doesn't work if you open the MDs on github it's NEC
 > Starting with Jekyll! Learning all that Jekyll offers with an easy and smart template to get you started!
 > REMEBER: you need install the ruby and git installed!
 
+1. Cloning the Repository
+
 ```cmd
-$ git clone https://github.com/gabrielramires/Easy_Jekyll.git
+$ git clone https://github.com/RamiresOliv/Easy_Jekyll.git
 ```
 
 2. Afeter Use the git clone just goto the Folder Created and run:

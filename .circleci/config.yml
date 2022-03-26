@@ -16,11 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Start Up"
-          command: """
-          echo Informations its now operational!
-          dir
-          sh yourname.sh
-          """
+          command: "dir"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows

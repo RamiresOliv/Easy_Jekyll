@@ -2,7 +2,7 @@
 
 <img align="center" src="Base/public/Assets/Images/Icons/Website_favicon.png">
 
-> Easy Porject in Jekyll to help you knows more about Jekyll testing, changing and more
+> Easy Template in Jekyll to help you knows more about Jekyll testing, changing and more
 
 
 Hey take it easy the project doesn't work if you open the MDs on github it's NECESSARY to run the code on Jekyll so that it is converted and usable.

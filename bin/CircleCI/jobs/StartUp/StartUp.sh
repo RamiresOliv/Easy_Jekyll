@@ -3,6 +3,7 @@
 echo hello world!!
 IFS="="
 
+dir
 while read line; do
 echo $line
 

@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Start Up"
-          command: "sh bin/CircleCI/jobs/StartUp.sh"
+          command: "sh bin/CircleCI/jobs/StartUp/StartUp.sh"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows

@@ -1,7 +1,8 @@
-<h1 style="align: center;"> Easy Jekyll </h1>
+<p align="center"><img src="base/public/Assets/Images/Icons/Website_favicon.png"></p>
 
-<img style="align: center;" src="Base/public/Assets/Images/Icons/Website_favicon.png">
-<img style="align: center;" src="https://circleci.com/gh/RamiresOliv/Easy_Jekyll/tree/Website.svg?style=svg">
+<h1 align="center"> Easy Jekyll </h1>
+
+<p align="center"><img src="https://circleci.com/gh/RamiresOliv/Easy_Jekyll/tree/Website.svg?style=svg"></p>
 
 > Easy Template in Jekyll to help you knows more about Jekyll testing, changing and more
 

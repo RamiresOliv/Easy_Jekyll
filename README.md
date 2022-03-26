@@ -61,3 +61,5 @@ $ .\server
   - State changes
   - Disclose source
   - Same license
+
+(c) (RamiresOliv)[..]

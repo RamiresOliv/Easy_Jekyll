@@ -62,4 +62,4 @@ $ .\server
   - Disclose source
   - Same license
 
-_(c) (RamiresOliv)[https://github.com/RamiresOliv]_
+_((c)RamiresOliv)[https://github.com/RamiresOliv]_

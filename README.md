@@ -25,7 +25,7 @@ $ git clone https://github.com/RamiresOliv/Easy_Jekyll.git
 $ gem install Jekyll
 ```
 
-3. Afeter Use the gem install use:
+3. Starting the Project using
 
 ```cmd
 $ cd Easy_Jekyll

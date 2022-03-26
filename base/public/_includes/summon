@@ -1,5 +1,78 @@
 {%- assign config_file = site.data.include_configs.custom_config -%}
 
+{{<!-- 
+
+File Summon its now Automatic no needs more put the file name on this file...
+
+- Tip
+(Just config the file in the path "base/public/_data/include_configs/custom_config.yml")
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Script: 
+-->}}
+
+<!-- SUMMON START SCRIPT; -->
+
+<!-- 
+    DISBLAIMER: ANY scripts added here its added from the Summoner in the path base/public/_inncludes/summon
+    the add files its automatic
+-->
+{% console TIP: any errors or warns gona appear on the website console. %}
 {% for file in config_file.files_confirmation %}
     {% if config_file.config.enabled == false %}{%- break -%}{% endif %}
 
@@ -25,3 +98,9 @@
         {% endif %}
     {% endif %}
 {% endfor %}
+<!-- 
+    DISBLAIMER: ANY scripts added here its added from the Summoner in the path base/public/_inncludes/summon
+    the add files its automatic
+-->
+
+<!-- SUMMON END SCRIPT; -->

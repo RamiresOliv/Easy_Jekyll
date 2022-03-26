@@ -40,9 +40,11 @@ Sumario:
 
    - Criando um simples conteudo para o arquivo: <br> <img src="{{ site.url }}/Assets/Images/Includes3Img.png" alt="ERROR: não foi possivel carregar a demonstração...">
 
-2. Identificando o Arquivo no `summon`
+2. Cofigurando _**(Atualizado)**_
 
-   - Começe identificando tipo isso: <br> <img src="{{ site.url }}/Assets/Images/Includes4Img.png" alt="ERROR: não foi possivel carregar a demonstração..."> <br> foto tirada no arquivo `summon`, essa configuração ira identificar o arquivo e quando uma pagina é aberta o `summon` ira executar esse arquivo
+ <p><b style="color: Red;"><spam style="color: ;">ATENÇÃO:</spam> não sera mais preciso adicionar o nome do arquivo no "Summon"</b></p>
+
+- Confirmando a existencia do arquivo é simples <br> <img src="{{ site.url }}/Assets/Images/Includes4Img.png" alt="ERROR: não foi possivel carregar a demonstração..."> <br> foto tirada no arquivo `summon`, essa configuração ira identificar o arquivo e quando uma pagina é aberta o `summon` ira executar esse arquivo\_
 
    <br>
 
@@ -61,7 +63,7 @@ Sumario:
 
    - Criando um simples conteudo para o arquivo: <br> <img src="{{ site.url }}/Assets/Images/Includes3Img.png" alt="ERROR: não foi possivel carregar a demonstração...">
 
-2. Identificando
+2. Chamando
 
    - diferentimente do `custom` os `module` são utilizador para ser chamados como criando imagens e mais tipo isso: <br>
      <img src="{{ site.url }}/Assets/Images/Includes1Img_modulecall.png" alt="ERROR: não foi possivel carregar a demonstração...">
@@ -73,15 +75,12 @@ Sumario:
 
 ### <b id="4">É permitido editar os arquivos da pasta includes?</b>
 
-1. Sim! aliaz é uma copia perfeita e você pode refazela a qualquer momento sinta-se avontade de explorar os arquivos e descobrir mais osbre o `jekyll`!
+1. Sim! alias é uma copia perfeita e você pode refazela a qualquer momento sinta-se avontade de explorar os arquivos e descobrir mais osbre o `jekyll`!
 
 {% script %}
 function sumario(tipo) {
 const titulo = document.getElementById(tipo)
 const normal_background_color = titulo.style["background-color"]
-
-console.log(normal_background_color)
-
 titulo.style = "background-color: yellow"
 setTimeout(() => {
 titulo.style = `background-color: ${normal_background_color}`

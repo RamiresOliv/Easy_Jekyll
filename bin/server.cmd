@@ -8,6 +8,6 @@ set baseurl=""
 
 
 :: starting with configs
-cd ..
-jekyll s --port=%port% --baseurl=%baseurl%
+cd .
 echo %cd%
+jekyll s --port=%port% --baseurl=%baseurl%

@@ -43,7 +43,6 @@
       
         <div id="informations">The page <b>{{page.name | split: ".md"}}</b> requested, has some unknown error.</div>
         <p>Can... <strong>Page in developening, Page Null (Server Side)</strong></p>
-        <p>Error Type: <strong><color style="color: red;">Not Normal</color> <i>(if this error starting in try get the home page its <color style="color: red;">Not Normal.</color>)</i></strong></p>
     
         <p>Infos:<br>
         The server successfully processes the request, but no response is required :(</p>

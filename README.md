@@ -1,6 +1,14 @@
 <h1 align="center"> Easy Jekyll </h1>
 
-> How i get Started?
+<img align="center" src="Base/public/Assets/Images/Icons/Website_favicon.png">
+
+> Easy Porject in Jekyll to help you knows more about Jekyll testing, changing and more
+
+
+Hey take it easy the project doesn't work if you open the MDs on github it's NECESSARY to run the code on Jekyll so that it is converted and usable.
+
+
+# How use?
 
 REMEBER: you need the ruby and git installed!
 
@@ -30,4 +38,4 @@ $ cd bin
 $ .\server
 ```
 
-5. Good! now the server Running.
+5. Good! now the server Running. you can check if running on this localhost:4000

@@ -1,1 +1,1 @@
-<script id="watermark_script"> console.log("Water Mark: this template created in the "); document.getElementById("watermark_script").remove(); </script>
+<script id="watermark_script"> console.log("Easy_Jekyll(c)/https://github.com/RamiresOliv/Easy_Jekyll\nBy RamiresOliv/https://github.com/RamiresOliv"); document.getElementById("watermark_script").remove(); </script>

@@ -7,4 +7,4 @@ dir
 while read line; do
 echo $line
 
-done < ./DB.conf
+done < bin/CircleCI/jobs/StartUp/configurations.conf

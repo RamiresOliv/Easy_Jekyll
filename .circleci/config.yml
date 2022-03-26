@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
+          name: "Start Up"
           command: """
           echo Informations its now operational!
           dir

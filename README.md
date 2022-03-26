@@ -12,7 +12,7 @@ Hey take it easy the project doesn't work if you open the MDs on github it's NEC
 
 > REMEBER: you need install the ruby and git installed!
 
-1. Use:
+<h1 align="center">Use:</h1>
 
 ```cmd
 $ git clone https://github.com/gabrielramires/Easy_Jekyll.git
@@ -39,3 +39,21 @@ $ .\server
 ```
 
 5. Good! now the server Running. you can check if running on this localhost:4000
+
+<h1 aling="center">LICENSE</h1>
+> The GNU GPL is the most widely used free software license and has a strong copyleft requirement. When distributing derived works, the source code of the work must be made available under the same license. There are multiple variants of the GNU GPL, each with different requirements.
+LICENSE: [GNU General Public License v2.0](LICENSE)
+
+- Permissions
+  - Commercial use
+  - Modification
+  - Distribution
+  - Private use
+- Limitations
+  - Liability
+  - Warranty
+- Conditions
+  - License and copyright notice
+  - State changes
+  - Disclose source
+  - Same license

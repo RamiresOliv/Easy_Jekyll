@@ -6,4 +6,4 @@ IFS="="
 while read line; do
 echo $line
 
-done < DB.conf
+done < ./DB.conf

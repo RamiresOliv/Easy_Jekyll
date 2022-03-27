@@ -9,19 +9,19 @@ condition2 = false
 while read line; do
 if $line = "condition1=true" then
     condition1 = true
-else
+else then
     condition1 = false
 done
 if $line = "condition2=true" then
     condition2 = true
-else
+else then
     condition2 = false
 done
 done < bin/CircleCI/jobs/StartUp/configurations.conf
 
 if condition1 == true then
     echo "condition1 its true"
-else
+else then
     echo "condition1 its false"
 done
 

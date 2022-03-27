@@ -39,7 +39,7 @@ $ cd bin
 $ .\server
 ```
 
-5. Good! now the server Running. you can check if running on this localhost:4000
+5. Good! now the server Running. you can check if running on this [localhost:4000](localhost:4000)
 
 <h1 aling="center">LICENSE</h1>
 

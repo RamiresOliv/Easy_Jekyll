@@ -11,7 +11,7 @@ destination: app/.website
 source: "base/public"
 
 # others:
-github_username: gabrielramires
+github_username: RamiresOliv
 
 # Theme:
 theme: minima # Just a Remember: if you change this its mayable of the default files in the _includes/content/custom not works.

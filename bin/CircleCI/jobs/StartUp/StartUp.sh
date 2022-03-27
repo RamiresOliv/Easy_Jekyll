@@ -1,33 +1,9 @@
 #! /bin/bash
 
 echo hello world!!
-IFS="="
-
-condition1 = false
-condition2 = false
+jekyll server
 
 while read line; do
-if $line = "condition1=true" then
-    condition1 = true
-else then
-    condition1 = false
-done
-if $line = "condition2=true" then
-    condition2 = true
-else then
-    condition2 = false
-done
+echo $line
 done < bin/CircleCI/jobs/StartUp/configurations.conf
 
-if condition1 == true then
-    echo "condition1 its true"
-else then
-    echo "condition1 its false"
-done
-
-
-if condition2 == true then
-    echo "condition2 its true"
-else
-    echo "condition2 its false"
-done

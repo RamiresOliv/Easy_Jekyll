@@ -3,7 +3,8 @@
 echo hello world!!
 jekyll server
 
-while read line; do
-echo $line
-done < bin/CircleCI/jobs/StartUp/configurations.conf
-
+input="/bin/CircleCI/jobs/StartUp/configurations.conf"
+while IFS= read -r line
+do
+  echo "$line"
+done < "$input"

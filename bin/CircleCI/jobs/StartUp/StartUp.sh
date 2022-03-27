@@ -3,7 +3,8 @@
 echo hello world!!
 jekyll server
 
-input="/bin/CircleCI/jobs/StartUp/configurations.conf"
+dir
+input="bin/CircleCI/jobs/StartUp/configurations.conf"
 while IFS= read -r line
 do
   echo "$line"

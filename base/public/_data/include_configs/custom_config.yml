@@ -3,10 +3,10 @@
 # If the file not work and no have any error in the console verify if the file is enabled else verify the sub_path.
 
 files_confirmation:
-  - name: "page_empty"
+  - name: "module"
     desc: "If the Page stay Empty the user goto a error page 204"
     enabled: true
-    sub_path: "scripts" # Attetions its work like this: if the file its into a another folder in the custom folder you need add the patch exemple: my file into a "script" you need put: "script" or another exemple: my file into a "script/lua"  you need put: "script/lua" difene null exemple: "", if the file its into a custom
+    sub_path: "scripts/if/page/empty/job" # Attetions its work like this: if the file its into a another folder in the custom folder you need add the patch exemple: my file into a "script" you need put: "script" or another exemple: my file into a "script/lua"  you need put: "script/lua" difene null exemple: "", if the file its into a custom
 
   - name: "water_mark"
     desc: "Cool Water Mark from the template but if you don't like remove he changing the value enabled to false in the module_config.yml"

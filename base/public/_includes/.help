@@ -1,25 +1,28 @@
-                                                                            Creating a file!:
+                                                  Creating a file!:
+
 at this stage it is necessary to know which type of file you will create if it is of the `module` or `custom` type,
 remember the `custom` is necessary a verification to identify the created file and after the identification of the file it will be implemented in all as user-accessed pages.
 Unlike `module` it basically consists of being callable in a file called `call` with which you can call any file without identifying anything inside the `module` folder.
 
 For you create a `module` file you need create a file in the directory: content/require
 For you call a `module` file you need create a variable to call he like this: "{% include call file="[TheFileName]" anothervariable="[Cool]" %}" (it works for any page including include files.)
-Configuring Custom Variables 
+Configuring Custom Variables
 
 For you create a `custom` file you need create a file in the directory: content/custom
 For you call a `custom` file its not required the `custom` files its enabled automatic but you need confirm shes like this: follow the step "Confirm to CALL"
 
                            Confirm to CALL:
+
 after you created the file in content/custom
-goto the file _data/include/files_confirmation.yml and put the new file and descripiton
-Exemple:
+goto the file \_data/include/files_confirmation.yml and put the new file and descripiton
 
-
-files_confirmated:
+```yml
+# Exemple:
+files_confirmation:
   - name: "page_empty"
     desc: "If the Page stay Empty the user goto a error page 204"
-  - name: "My_New_File"
-    desc: "Cool anti cheat"
+    enabled: true
+    sub_path: "scripts"
+```
 
 The descripition its not require

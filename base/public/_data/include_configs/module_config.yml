@@ -8,4 +8,4 @@ files_args_configs:
 
 config:
   enabled: true
-  normal_path: content/module
+  normal_path: content/modules

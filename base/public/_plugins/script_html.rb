@@ -1,7 +1,8 @@
 module Jekyll
     class Script_Block < Liquid::Block
         def render(context)
-            "<script id='script_block_jekyll'> #{super} </script>"
+            result = super.gsub("\n",  ";")
+            "<script id='script_block_jekyll'> #{result} </script>"
         end
     end
 end

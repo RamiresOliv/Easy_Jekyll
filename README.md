@@ -62,4 +62,8 @@ $ .\server
   - Disclose source
   - Same license
 
+# benefits
+
+You can change codes, learn and much more as the code is open to anyone and also easy to use just use jekyll and that's it! oh and it's also free ;)
+
 _[(c) RamiresOliv](https://github.com/RamiresOliv)_

@@ -54,7 +54,7 @@ title: Home
 
 <br>
 
-{% script %}
+<script>
 var peoplefileopenned = false
 var sel = document.getElementById("Button").getSelection();
 sel.removeAllRanges();
@@ -93,4 +93,4 @@ index.md file:
 }
 }
 
-{% endscript %}
+</script>

@@ -4,8 +4,7 @@
 
 File Summon its now Automatic no needs more put the file name on this file...
 
-- Tip
-(Just config the file in the path "base/public/_data/include_configs/custom_config.yml")
+- Tip: Just config the file in the path "base/public/_data/include_configs/custom_config.yml"
 
 
 
@@ -76,8 +75,8 @@ File Summon its now Automatic no needs more put the file name on this file...
 {% for file in config_file.files_confirmation %}
     {% if config_file.config.enabled == false %}{%- break -%}{% endif %}
 
-    {% capture fileExist_custom %}{% file_exists _includes/{{config_file.config.normal_path}}/{{file.name}} %}{% endcapture %}
-    {% if fileExist_custom == "true" %}
+    {% capture foxdevloper_esteve_aqui_fileExist_custom %}{% file_exists _includes/{{config_file.config.normal_path}}/{{file.name}} %}{% endcapture %}
+    {% if foxdevloper_esteve_aqui_fileExist_custom == "true" %}
         {% if file.enabled == true %}
 {% include {{config_file.config.normal_path}}/{{file.name}} %}
         {% endif %}
@@ -103,4 +102,45 @@ File Summon its now Automatic no needs more put the file name on this file...
     the add files its automatic
 -->
 
-<!-- SUMMON END SCRIPT; -->
+{{<!-- SUMMON END SCRIPT; -->}}
+
+{{<!--
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+foxdevloper_esteve_aqui
+-->}}

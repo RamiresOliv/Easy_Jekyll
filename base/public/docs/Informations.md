@@ -108,27 +108,10 @@ function sumario(tipo) {
 const titulo = document.getElementById(tipo)
 const normal_background_color = titulo.style["background-color"]
 
-console.log(normal_background_color)
-
-titulo.style = "background-color: yellow"
-setTimeout(() => {
-titulo.style = `background-color: ${normal_background_color}`
-}, 3000)
-}
-{% endscript %}
-
-<!--
-<script>
-    function sumario(tipo) {
-        const titulo = document.getElementById(tipo)
-        const normal_background_color = titulo.style["background-color"]
-
-        console.log(normal_background_color)
-
         titulo.style = "background-color: yellow"
         setTimeout(() => {
-        titulo.style = `background-color: ${normal_background_color}`
+            titulo.style = `background-color: ${normal_background_color}`
         }, 3000)
     }
-</script>
--->
+
+{% endscript %}

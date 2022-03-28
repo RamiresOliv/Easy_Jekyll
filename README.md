@@ -39,7 +39,7 @@ $ .\server
 
 5. Good! now the server Running. you can check if running on this [localhost:4000](localhost:4000)
 
-# 📜 LICENSE
+# 📜 License
 
 > The GNU GPL is the most widely used free software license and has a strong copyleft requirement. When distributing derived works, the source code of the work must be made available under the same license. There are multiple variants of the GNU GPL, each with different requirements.
 

@@ -71,6 +71,6 @@ $ .\server
 
 # Server
 
-Host: [localhost:4000](localhost:4000)
+Host: <a href="https://localhost:4000">localhost:4000</a>
 
 _[(c) RamiresOliv](https://github.com/RamiresOliv)_

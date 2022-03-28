@@ -19,6 +19,10 @@ figure {
   padding: 0;
 }
 
+hr {
+  border: 3px solid rgb(20, 30, 36);
+}
+
 /** Basic styling */
 body {
   font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -69,10 +73,6 @@ img {
 /** Figures */
 figure > img {
   display: block;
-}
-
-.titles {
-  background-color: #22323c;
 }
 
 figcaption {

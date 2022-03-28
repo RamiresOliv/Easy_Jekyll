@@ -9,6 +9,12 @@ title: Home
 
 <h1>Hello World!</h1>
 
+<p><a href="https://github.com/RamiresOliv/Easy_Jekyll/"><img src="https://circleci.com/gh/RamiresOliv/Easy_Jekyll/tree/Website.svg?style=svg"></a>
+<a href="https://github.com/RamiresOliv/Easy_Jekyll/blob/Website/LICENSE"><img src="https://img.shields.io/github/license/RamiresOliv/Easy_Jekyll"></a>
+<a href="https://rubygems.org/gems/jekyll"><img src="https://img.shields.io/gem/v/jekyll"></a>
+<a href="https://github.com/RamiresOliv/Easy_Jekyll/"><img src="https://img.shields.io/github/checks-status/RamiresOliv/Easy_Jekyll/Website"></a></p>
+<br><br>
+
 <h3>Peoples:</h3>
 <ul>
 {% for member in site.data.people.members %}
@@ -41,7 +47,7 @@ title: Home
 <small id="ShowCreditsPeople"></small>
 </ul>
 
-<br><br><br><br>
+<br><br>
 
 <b>About from the Template</b>
 

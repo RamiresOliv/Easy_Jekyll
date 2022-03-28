@@ -69,4 +69,8 @@ $ .\server
 - ✔ Can use exemples from this Template in others project
 - ❌ Can sell this Template
 
+# Server
+
+Host: [localhost:4000](localhost:4000)
+
 _[(c) RamiresOliv](https://github.com/RamiresOliv)_

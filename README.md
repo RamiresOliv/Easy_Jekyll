@@ -75,7 +75,7 @@ Local Host: localhost:4000 _(default)_
 
 # Others
 
-Creator: _[(c) RamiresOliv](https://github.com/RamiresOliv)_
+Creator: _[RamiresOliv](https://github.com/RamiresOliv)_
 <br>&<br>
 Translater: _[jekyll](https://jekyllrb.com) <3_
 <br>&<br>Host: _[jekyll](https://github.com) <3_

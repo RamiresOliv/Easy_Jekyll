@@ -37,7 +37,9 @@ $ cd bin
 $ .\server
 ```
 
-5. Good! now the server Running. you can check if running on this [localhost:4000](localhost:4000)
+5. Checking if the server started in `localhost:4000` on your browser
+
+6. Now be free to change any code and read :)
 
 # 📜 License
 

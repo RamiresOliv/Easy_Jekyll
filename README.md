@@ -17,21 +17,17 @@
 $ git clone https://github.com/RamiresOliv/Easy_Jekyll.git
 ```
 
-2. After Use the git clone just go to the Folder Created and run:
-
-```cmd
-$ gem install Jekyll
-```
-
-3. Now use these commands in order for start a server
-
-1
+2. After Use the git clone you can use `cd` to open the project
 
 ```cmd
 $ cd Easy_Jekyll
 ```
 
-2
+3. Now use these commands in order for start a server
+
+```cmd
+$ gem install Jekyll
+```
 
 ```cmd
 $ cd ./bin/server

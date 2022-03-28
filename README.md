@@ -17,7 +17,7 @@
 $ git clone https://github.com/RamiresOliv/Easy_Jekyll.git
 ```
 
-2. Afeter Use the git clone just goto the Folder Created and run:
+2. After Use the git clone just goto the Folder Created and run:
 
 ```cmd
 $ gem install Jekyll

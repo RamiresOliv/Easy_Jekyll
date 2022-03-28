@@ -73,10 +73,8 @@ $ .\server
 
 Local Host: localhost:4000 _(default)_
 
-## By
+## Others
 
-_[(c) RamiresOliv](https://github.com/RamiresOliv)_
+Creator _[(c) RamiresOliv](https://github.com/RamiresOliv)_
 
-### using
-
-_[jekyll](https://jekyllrb.com)_
+Gem _[jekyll](https://jekyllrb.com)_

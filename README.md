@@ -87,4 +87,4 @@ Translater: _[Jekyll](https://jekyllrb.com) <3_
 
 <h1 align="center"> 💎Easy Jekyll💎 </h1>
 
-## End. 😎
+<h2 align="center"> End. 😎 </h2>

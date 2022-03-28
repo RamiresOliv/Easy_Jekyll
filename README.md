@@ -74,7 +74,8 @@ $ cd ./bin/server
 
 Local Host: **localhost:4000** _(default)_
 
-you can change in the `bin/server` the `port` exemple for `4034`, `5225` and others
+you can change in the `bin/server` the `port` exemple for `4034`, `5225` and Others
+you can change the `baseurl` but its not great.
 
 # 📣 Github Markdown
 

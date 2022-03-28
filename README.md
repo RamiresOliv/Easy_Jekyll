@@ -82,5 +82,9 @@ Local Host: **localhost:4000** _(default)_
 
 Creator: _[RamiresOliv](https://github.com/RamiresOliv)_
 <br>&<br>
-Translater: _[jekyll](https://jekyllrb.com) <3_
-<br>&<br>Host: _[jekyll](https://github.com) <3_
+Translater: _[Jekyll](https://jekyllrb.com) <3_
+<br>&<br>Host: _[Github](https://github.com) <3_
+
+<h1 align="center"> 💎Easy Jekyll💎 </h1>
+
+## End. 😎

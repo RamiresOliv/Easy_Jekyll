@@ -6,6 +6,8 @@
 
 > Easy Template in Jekyll to help you knows more about Jekyll testing, changing and more
 
+ATENTION: The Github version its not updated!
+
 # 🗿 How use?
 
 > Starting with Jekyll! Learning all that Jekyll offers with an easy and smart template to get you started!

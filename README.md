@@ -23,18 +23,18 @@ $ git clone https://github.com/RamiresOliv/Easy_Jekyll.git
 $ gem install Jekyll
 ```
 
-3. Starting the Project using
+3. Now use these commands in order for start a server
+
+1
 
 ```cmd
 $ cd Easy_Jekyll
 ```
 
-```cmd
-$ cd bin
-```
+2
 
 ```cmd
-$ .\server
+$ cd ./bin/server
 ```
 
 5. Checking if the server started in `localhost:4000` on your browser

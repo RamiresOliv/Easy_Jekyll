@@ -65,7 +65,7 @@ $ .\server
 - ✔ You can change codes.
 - ✔ learn and much more as the code is open to anyone and also easy to use just use jekyll and that's it! oh and it's also free ;).
 - ✔ Can use exemples from this Template in others project.
-- ✔ Give Credits; **_the project its free... its good you give the credits for more people use ;)_**
+- ✔ Give Credits; _the project its **free**... So its good you **give the credits** for more people use ;)_
 - ❌ Can sell this Template.
 
 # 💻 Server

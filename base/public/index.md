@@ -51,7 +51,7 @@ title: Home
 
 <b>About from the Template</b>
 
-- Thanks for using the {{ site.title }} <a href="https://github.com/gabrielramires/Jekyll_Template">see here</a>
+- Thanks for using the {{ site.title }} <a href="https://github.com/RamiresOliv/Easy_Jekyll">see here</a>
 - Okay Start using the <a href="Docs">Docs</a>
 
 <b>Not sure how to get started after starting the server?</b>
@@ -95,7 +95,7 @@ document.getElementById("ShowCreditsPeople").innerHTML = `
 
 index.md file:
 <a target="_blank" href="Assets/Images/CodeScreamShoot1.png"><img src="Assets/Images/CodeScreamShoot1.png" alt="Code Scream Shoot (UNLOADED)"></a>
-<small>See this <a href="https://gist.github.com/gabrielramires/22652461638c32cfcb7f138140494800">Code</a> in Github</small>`
+<small>See this <a href="https://gist.github.com/RamiresOliv/22652461638c32cfcb7f138140494800">Code</a> in Github</small>`
 }
 }
 

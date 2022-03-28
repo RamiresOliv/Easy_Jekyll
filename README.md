@@ -62,11 +62,11 @@ $ .\server
 
 # 🎯 benefits
 
-- ✔ You can change codes
-- ✔ learn and much more as the code is open to anyone and also easy to use just use jekyll and that's it! oh and it's also free ;)
-- ✔ Can use exemples from this Template in others project
-- ❌ Can sell this Template
-- ❌ No give Credits _the project its free... its good you give the credits for more people use ;)_
+- ✔ You can change codes.
+- ✔ learn and much more as the code is open to anyone and also easy to use just use jekyll and that's it! oh and it's also free ;).
+- ✔ Can use exemples from this Template in others project.
+- ❌ Can sell this Template.
+- ❌ No give Credits; _the project its free... its good you give the credits for more people use ;)_
 
 # 💻 Server
 

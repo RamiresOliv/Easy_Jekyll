@@ -73,7 +73,7 @@ $ .\server
 
 Local Host: localhost:4000 _(default)_
 
-## Others
+# Others
 
 Creator _[(c) RamiresOliv](https://github.com/RamiresOliv)_
 

@@ -74,6 +74,8 @@ $ cd ./bin/server
 
 Local Host: **localhost:4000** _(default)_
 
+you can change in the `bin/server` the `port` exemple for `4034`, `5225` and others
+
 # 📣 Github Markdown
 
 **Hey!** take it easy the project doesn't work if you open the MDs on github it's NECESSARY to run the code on Jekyll so that it is converted and usable.

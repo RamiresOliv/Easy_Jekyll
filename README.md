@@ -1,6 +1,6 @@
 <p align="center"><img src="base/public/Assets/Images/Icons/Website_favicon.png"></p>
 
-<h1 align="center"> Easy Jekyll </h1>
+<h1 align="center"> Easy Jekyll💎 </h1>
 
 <p align="center"><img src="https://circleci.com/gh/RamiresOliv/Easy_Jekyll/tree/Website.svg?style=svg"> <img src="https://img.shields.io/github/license/RamiresOliv/Easy_Jekyll"> <img src="https://img.shields.io/gem/v/jekyll"> <img src="https://img.shields.io/github/checks-status/RamiresOliv/Easy_Jekyll/Website"></p>
 

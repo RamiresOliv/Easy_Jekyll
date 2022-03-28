@@ -6,7 +6,7 @@
 
 > Easy Template in Jekyll to help you knows more about Jekyll testing, changing and more
 
-ATENTION: The Github version its not updated!
+**ATENTION: The Github version its not updated!**
 
 # 🗿 How use?
 

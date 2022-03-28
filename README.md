@@ -62,7 +62,7 @@ $ .\server
 
 # 🎯 What you can do
 
-> ✔ to you can
+> ✔ to you can<br>
 > ❌ to you can't
 
 - ✔ You can change codes.

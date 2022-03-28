@@ -62,8 +62,7 @@ $ .\server
 
 # 🎯 What you can do
 
-> ✔ to you can<br>
-> ❌ to you can't
+> ✔ to you can<br>❌ to you can't
 
 - ✔ You can change codes.
 - ✔ learn and much more as the code is open to anyone and also easy to use just use jekyll and that's it! oh and it's also free ;).

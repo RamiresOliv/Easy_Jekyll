@@ -78,4 +78,4 @@ Local Host: localhost:4000 _(default)_
 Creator: _[(c) RamiresOliv](https://github.com/RamiresOliv)_
 
 Translater: _[jekyll](https://jekyllrb.com) <3_
-Host: _[jekyll](https://github.com) <3_
+<br>&<br>Host: _[jekyll](https://github.com) <3_

@@ -70,7 +70,7 @@ $ .\server
 
 # 💻 Server
 
-Local Host: localhost:4000 _(default)_
+Local Host: **localhost:4000** _(default)_
 
 # 📣 Github Markdown
 

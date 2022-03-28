@@ -6,8 +6,6 @@
 
 > Easy Template in Jekyll to help you knows more about Jekyll testing, changing and more
 
-_**Hey!** take it easy the project doesn't work if you open the MDs on github it's NECESSARY to run the code on Jekyll so that it is converted and usable._
-
 # How use?
 
 > Starting with Jekyll! Learning all that Jekyll offers with an easy and smart template to get you started!
@@ -72,6 +70,10 @@ $ .\server
 # Server
 
 Local Host: localhost:4000 _(default)_
+
+# Github Markdown
+
+**Hey!** take it easy the project doesn't work if you open the MDs on github it's NECESSARY to run the code on Jekyll so that it is converted and usable.
 
 # Others
 

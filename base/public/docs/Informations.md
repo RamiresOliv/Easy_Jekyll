@@ -51,7 +51,7 @@ Bem como o mundo não é um mar de rosas os lugares que hospedam os Websites Pre
 
 # <span id="2">Sobre Jekyll</span>
 
-Uma feramenta que eu uso para criar os meus websites usando o <a target="_blank" href="https://pages.github.com">Github</a> para Hospeda-los e criado em base de Ruby.
+Uma ferramenta que eu uso para criar os meus websites usando o <a target="_blank" href="https://pages.github.com">Github</a> para Hospeda-los e criado em base de Ruby.
 
 Verifique as informações de <a target="_blank" href="#começar-a-usar-o-jekyll">Começar a usar o Jekyll</a>
 

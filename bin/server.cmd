@@ -9,5 +9,7 @@ set baseurl=""
 
 :: starting with configs
 cd .
-echo %cd%
+echo in %cd%
 jekyll s --port=%port% --baseurl=%baseurl%
+echo Closing and Checking Gems...
+./bin/CheckUpFiles.cmd > nul

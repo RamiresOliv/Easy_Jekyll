@@ -4,4 +4,5 @@ app/.website
 .jekyll-metadata
 .gh.bat
 vendor
-.vscode
+gh.cmd
+/GitHelper 

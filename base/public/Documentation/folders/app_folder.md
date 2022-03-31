@@ -1,5 +1,5 @@
 ---
-permalink: Docs/folders/app_folder
+permalink: Documentation/folders/app_folder
 layout: default
 ---
 

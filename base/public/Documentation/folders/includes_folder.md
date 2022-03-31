@@ -1,7 +1,7 @@
 ---
 layout: default
 page_in_dev: true
-permalink: Docs/folders/includes_folder
+permalink: Documentation/folders/includes_folder
 ---
 
 <style>

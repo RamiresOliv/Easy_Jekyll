@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /Docs/folders
+permalink: /Documentation/folders
 date: 2021-11-30 14:30
 ---
 

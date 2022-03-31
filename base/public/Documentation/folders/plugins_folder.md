@@ -1,5 +1,5 @@
 ---
-permalink: Docs/folders/plugins_folder
+permalink: Documentation/folders/plugins_folder
 layout: default
 ---
 

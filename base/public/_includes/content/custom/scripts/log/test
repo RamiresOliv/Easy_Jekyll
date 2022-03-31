@@ -1,0 +1,8 @@
+{% script %}
+    console.log("[test file]: Hello World!")
+
+    setTimeout(() => {
+        console.log("gg")
+        document.getElementById("script_block_jekyll").remove();
+    }, 2000)
+{% endscript %}

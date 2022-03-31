@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: Docs/After
+permalink: Documentation/After
 ---
 
 <h1>What i do now after i execute my Website?</h1>

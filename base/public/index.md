@@ -15,30 +15,26 @@ title: Home
 <a href="https://github.com/RamiresOliv/Easy_Jekyll/"><img src="https://img.shields.io/github/checks-status/RamiresOliv/Easy_Jekyll/Website"></a></p>
 <br><br>
 
-<h3>Peoples:</h3>
+<h3>Credits:</h3>
 <ul>
 {% for member in site.data.people.members %}
   <li>
     {% if member.github == nil %}
-<a target="_blank" href="https://twitter.com/{{ member.twitter }}">
+    <a target="_blank" href="https://twitter.com/{{ member.twitter }}">
       {{ member.name }} </a>
-        {% if member.creator == false %} Not Creator {% elsif member.creator == true %} Creator {% endif %}
+        {% if member.creator == true %} Creator {% endif %}
+        {{ member.note }}
 
         {% if member.note != nil %}
             {{ member.note }}
         {% endif %}
     {% elsif member.twitter == nil %}
-
-<a target="_blank" href="https://github.com/{{ member.github }}">
+    <a target="_blank" href="https://github.com/{{ member.github }}">
         {{ member.name }} </a>
-        {% if member.creator == false %} Not Creator {% elsif member.creator == true %} Creator {% endif %}
-
-        {% if member.note != nil %}
-            {{ member.note }}
-        {% endif %}
+        {% if member.creator == true %} Creator {% endif %}
+        {{ member.note }}
     {% else %}
-
-<p>Invalid value</p>
+    <p>Invalid value</p>
     {% endif %}
 
   </li>
@@ -47,16 +43,22 @@ title: Home
 <small id="ShowCreditsPeople"></small>
 </ul>
 
-<br><br>
+<br>
+
+<b>See more:</b>
+
+<a href="Documentation">Documentations</a> from the Easy_Jekyll
+
+<br>
 
 <b>About from the Template</b>
 
 - Thanks for using the {{ site.title }} <a href="https://github.com/RamiresOliv/Easy_Jekyll">see here</a>
-- Okay Start using the <a href="Docs">Docs</a>
+- Okay Start using the <a href="Documentation">Documentation</a>
 
 <b>Not sure how to get started after starting the server?</b>
 
-<li>See this <a href="Docs/After">document</a> it can help you</li>
+<li>See this <a href="Documentation/After">document</a> it can help you</li>
 
 <br>
 

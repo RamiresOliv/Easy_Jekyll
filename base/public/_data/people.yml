@@ -1,15 +1,12 @@
 members:
-  - name: Gabriel Ramires
+  - name: Ramires
     creator: true
-    github: gabrielramires
-    note: "The best guy forever"
+    github: RamiresOliv
+    note: Scripter
 
-  - name: Arthur Ft
-    creator: false
-    github: ArthurFt
-    note: "(Test User)"
+  - name: Github
+    github: Github
+    note: Hoster
 
   - name: Felps
-    creator: false
     twitter: feeeelps
-    note: "(Test User)"

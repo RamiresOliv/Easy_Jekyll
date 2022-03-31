@@ -9,6 +9,7 @@ set baseurl=""
 
 :: starting with configs
 cd .
+del /Q /F "./Plugins/lib/cache/script_html"
 echo in %cd%
 jekyll s --port=%port% --baseurl=%baseurl%
 echo Closing and Checking Gems...

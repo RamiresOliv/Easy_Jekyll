@@ -1,5 +1,5 @@
 ---
-permalink: Docs/folders/base_folder
+permalink: Documentation/folders/base_folder
 layout: default
 ---
 

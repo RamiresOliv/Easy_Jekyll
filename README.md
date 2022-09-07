@@ -2,7 +2,7 @@
 
 <h1 align="center"> 💎Easy Jekyll💎 </h1>
 
-<p align="center"><img src="https://circleci.com/gh/RamiresOliv/Easy_Jekyll/tree/Website.svg?style=svg"> <img src="https://img.shields.io/github/license/RamiresOliv/Easy_Jekyll"> <img src="https://img.shields.io/gem/v/jekyll"> <img src="https://img.shields.io/github/checks-status/RamiresOliv/Easy_Jekyll/Website"></p>
+<img src="https://img.shields.io/github/license/RamiresOliv/Easy_Jekyll"> <img src="https://img.shields.io/gem/v/jekyll"> <img src="https://img.shields.io/github/checks-status/RamiresOliv/Easy_Jekyll/Website"></p>
 
 > Easy Template in Jekyll to help you knows more about Jekyll testing, changing and more
 
